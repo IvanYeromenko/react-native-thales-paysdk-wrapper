@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: ./libs/TSHPaySDK-debug-6.3.0.rc04-default.aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a77269a8df6cb57a67bccd7006409a97/jetified-TSHPaySDK-debug-6.3.0.rc04-default/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a77269a8df6cb57a67bccd7006409a97/jetified-TSHPaySDK-debug-6.3.0.rc04-default/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a77269a8df6cb57a67bccd7006409a97/jetified-TSHPaySDK-debug-6.3.0.rc04-default/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

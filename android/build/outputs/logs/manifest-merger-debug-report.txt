@@ -1,0 +1,115 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/ivan/WebstormProjects/ProvidusMobile/node_modules/react-native-thales-paysdk-wrapper/android/src/main/AndroidManifest.xml:2:1-48:12
+INJECTED from /Users/ivan/WebstormProjects/ProvidusMobile/node_modules/react-native-thales-paysdk-wrapper/android/src/main/AndroidManifest.xml:2:1-48:12
+INJECTED from /Users/ivan/WebstormProjects/ProvidusMobile/node_modules/react-native-thales-paysdk-wrapper/android/src/main/AndroidManifest.xml:2:1-48:12
+	package
+		ADDED from /Users/ivan/WebstormProjects/ProvidusMobile/node_modules/react-native-thales-paysdk-wrapper/android/src/main/AndroidManifest.xml:4:3-47
+		INJECTED from /Users/ivan/WebstormProjects/ProvidusMobile/node_modules/react-native-thales-paysdk-wrapper/android/src/main/AndroidManifest.xml
+		INJECTED from /Users/ivan/WebstormProjects/ProvidusMobile/node_modules/react-native-thales-paysdk-wrapper/android/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/ivan/WebstormProjects/ProvidusMobile/node_modules/react-native-thales-paysdk-wrapper/android/src/main/AndroidManifest.xml:3:3-49
+	xmlns:android
+		ADDED from /Users/ivan/WebstormProjects/ProvidusMobile/node_modules/react-native-thales-paysdk-wrapper/android/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /Users/ivan/WebstormProjects/ProvidusMobile/node_modules/react-native-thales-paysdk-wrapper/android/src/main/AndroidManifest.xml:6:3-37:17
+	android:allowBackup
+		ADDED from /Users/ivan/WebstormProjects/ProvidusMobile/node_modules/react-native-thales-paysdk-wrapper/android/src/main/AndroidManifest.xml:6:16-43
+activity#com.reactnativethalespaysdkwrapper.DeviceAuthActivity
+ADDED from /Users/ivan/WebstormProjects/ProvidusMobile/node_modules/react-native-thales-paysdk-wrapper/android/src/main/AndroidManifest.xml:7:5-61
+	android:name
+		ADDED from /Users/ivan/WebstormProjects/ProvidusMobile/node_modules/react-native-thales-paysdk-wrapper/android/src/main/AndroidManifest.xml:7:15-49
+service#com.gemalto.mfs.mwsdk.provisioning.push.CPSCommService
+ADDED from /Users/ivan/WebstormProjects/ProvidusMobile/node_modules/react-native-thales-paysdk-wrapper/android/src/main/AndroidManifest.xml:9:5-11:32
+	android:enabled
+		ADDED from /Users/ivan/WebstormProjects/ProvidusMobile/node_modules/react-native-thales-paysdk-wrapper/android/src/main/AndroidManifest.xml:11:7-29
+	android:name
+		ADDED from /Users/ivan/WebstormProjects/ProvidusMobile/node_modules/react-native-thales-paysdk-wrapper/android/src/main/AndroidManifest.xml:10:7-76
+service#com.gemalto.mfs.mwsdk.mobilegateway.MGConfigurationChangeService
+ADDED from /Users/ivan/WebstormProjects/ProvidusMobile/node_modules/react-native-thales-paysdk-wrapper/android/src/main/AndroidManifest.xml:12:5-14:32
+	android:enabled
+		ADDED from /Users/ivan/WebstormProjects/ProvidusMobile/node_modules/react-native-thales-paysdk-wrapper/android/src/main/AndroidManifest.xml:14:7-29
+	android:name
+		ADDED from /Users/ivan/WebstormProjects/ProvidusMobile/node_modules/react-native-thales-paysdk-wrapper/android/src/main/AndroidManifest.xml:13:7-86
+service#com.gemalto.mfs.mwsdk.dcm.broadcast.DCMBroadcastService
+ADDED from /Users/ivan/WebstormProjects/ProvidusMobile/node_modules/react-native-thales-paysdk-wrapper/android/src/main/AndroidManifest.xml:16:5-18:34
+	android:exported
+		ADDED from /Users/ivan/WebstormProjects/ProvidusMobile/node_modules/react-native-thales-paysdk-wrapper/android/src/main/AndroidManifest.xml:18:7-31
+	android:name
+		ADDED from /Users/ivan/WebstormProjects/ProvidusMobile/node_modules/react-native-thales-paysdk-wrapper/android/src/main/AndroidManifest.xml:17:7-77
+service#com.reactnativethalespaysdkwrapper.payment.contactless.pfp.PFPHCEService
+ADDED from /Users/ivan/WebstormProjects/ProvidusMobile/node_modules/react-native-thales-paysdk-wrapper/android/src/main/AndroidManifest.xml:19:5-33:15
+	android:label
+		ADDED from /Users/ivan/WebstormProjects/ProvidusMobile/node_modules/react-native-thales-paysdk-wrapper/android/src/main/AndroidManifest.xml:22:7-39
+	android:exported
+		ADDED from /Users/ivan/WebstormProjects/ProvidusMobile/node_modules/react-native-thales-paysdk-wrapper/android/src/main/AndroidManifest.xml:21:7-30
+	android:permission
+		ADDED from /Users/ivan/WebstormProjects/ProvidusMobile/node_modules/react-native-thales-paysdk-wrapper/android/src/main/AndroidManifest.xml:23:7-63
+	android:name
+		ADDED from /Users/ivan/WebstormProjects/ProvidusMobile/node_modules/react-native-thales-paysdk-wrapper/android/src/main/AndroidManifest.xml:20:7-60
+intent-filter#action:name:android.nfc.cardemulation.action.HOST_APDU_SERVICE+category:name:android.intent.category.DEFAULT
+ADDED from /Users/ivan/WebstormProjects/ProvidusMobile/node_modules/react-native-thales-paysdk-wrapper/android/src/main/AndroidManifest.xml:24:7-28:23
+action#android.nfc.cardemulation.action.HOST_APDU_SERVICE
+ADDED from /Users/ivan/WebstormProjects/ProvidusMobile/node_modules/react-native-thales-paysdk-wrapper/android/src/main/AndroidManifest.xml:25:9-85
+	android:name
+		ADDED from /Users/ivan/WebstormProjects/ProvidusMobile/node_modules/react-native-thales-paysdk-wrapper/android/src/main/AndroidManifest.xml:25:17-82
+category#android.intent.category.DEFAULT
+ADDED from /Users/ivan/WebstormProjects/ProvidusMobile/node_modules/react-native-thales-paysdk-wrapper/android/src/main/AndroidManifest.xml:27:9-68
+	android:name
+		ADDED from /Users/ivan/WebstormProjects/ProvidusMobile/node_modules/react-native-thales-paysdk-wrapper/android/src/main/AndroidManifest.xml:27:19-65
+meta-data#android.nfc.cardemulation.host_apdu_service
+ADDED from /Users/ivan/WebstormProjects/ProvidusMobile/node_modules/react-native-thales-paysdk-wrapper/android/src/main/AndroidManifest.xml:30:7-32:47
+	android:resource
+		ADDED from /Users/ivan/WebstormProjects/ProvidusMobile/node_modules/react-native-thales-paysdk-wrapper/android/src/main/AndroidManifest.xml:32:9-44
+	android:name
+		ADDED from /Users/ivan/WebstormProjects/ProvidusMobile/node_modules/react-native-thales-paysdk-wrapper/android/src/main/AndroidManifest.xml:31:9-67
+service#com.reactnativethalespaysdkwrapper.HeartbeatEventService
+ADDED from /Users/ivan/WebstormProjects/ProvidusMobile/node_modules/react-native-thales-paysdk-wrapper/android/src/main/AndroidManifest.xml:34:5-36:15
+	android:name
+		ADDED from /Users/ivan/WebstormProjects/ProvidusMobile/node_modules/react-native-thales-paysdk-wrapper/android/src/main/AndroidManifest.xml:35:7-44
+uses-feature#android.hardware.nfc.hce
+ADDED from /Users/ivan/WebstormProjects/ProvidusMobile/node_modules/react-native-thales-paysdk-wrapper/android/src/main/AndroidManifest.xml:38:3-59
+	android:name
+		ADDED from /Users/ivan/WebstormProjects/ProvidusMobile/node_modules/react-native-thales-paysdk-wrapper/android/src/main/AndroidManifest.xml:38:17-56
+uses-permission#android.permission.INTERNET
+ADDED from /Users/ivan/WebstormProjects/ProvidusMobile/node_modules/react-native-thales-paysdk-wrapper/android/src/main/AndroidManifest.xml:39:3-65
+	android:name
+		ADDED from /Users/ivan/WebstormProjects/ProvidusMobile/node_modules/react-native-thales-paysdk-wrapper/android/src/main/AndroidManifest.xml:39:20-62
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/ivan/WebstormProjects/ProvidusMobile/node_modules/react-native-thales-paysdk-wrapper/android/src/main/AndroidManifest.xml:40:3-77
+	android:name
+		ADDED from /Users/ivan/WebstormProjects/ProvidusMobile/node_modules/react-native-thales-paysdk-wrapper/android/src/main/AndroidManifest.xml:40:20-74
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from /Users/ivan/WebstormProjects/ProvidusMobile/node_modules/react-native-thales-paysdk-wrapper/android/src/main/AndroidManifest.xml:41:3-75
+	android:name
+		ADDED from /Users/ivan/WebstormProjects/ProvidusMobile/node_modules/react-native-thales-paysdk-wrapper/android/src/main/AndroidManifest.xml:41:20-72
+uses-permission#android.permission.USE_BIOMETRIC
+ADDED from /Users/ivan/WebstormProjects/ProvidusMobile/node_modules/react-native-thales-paysdk-wrapper/android/src/main/AndroidManifest.xml:42:3-70
+	android:name
+		ADDED from /Users/ivan/WebstormProjects/ProvidusMobile/node_modules/react-native-thales-paysdk-wrapper/android/src/main/AndroidManifest.xml:42:20-67
+uses-permission#android.permission.USE_FINGERPRINT
+ADDED from /Users/ivan/WebstormProjects/ProvidusMobile/node_modules/react-native-thales-paysdk-wrapper/android/src/main/AndroidManifest.xml:43:3-72
+	android:name
+		ADDED from /Users/ivan/WebstormProjects/ProvidusMobile/node_modules/react-native-thales-paysdk-wrapper/android/src/main/AndroidManifest.xml:43:20-69
+uses-permission#android.permission.GET_TASKS
+ADDED from /Users/ivan/WebstormProjects/ProvidusMobile/node_modules/react-native-thales-paysdk-wrapper/android/src/main/AndroidManifest.xml:44:3-66
+	android:name
+		ADDED from /Users/ivan/WebstormProjects/ProvidusMobile/node_modules/react-native-thales-paysdk-wrapper/android/src/main/AndroidManifest.xml:44:20-63
+uses-permission#android.permission.NFC
+ADDED from /Users/ivan/WebstormProjects/ProvidusMobile/node_modules/react-native-thales-paysdk-wrapper/android/src/main/AndroidManifest.xml:46:3-60
+	android:name
+		ADDED from /Users/ivan/WebstormProjects/ProvidusMobile/node_modules/react-native-thales-paysdk-wrapper/android/src/main/AndroidManifest.xml:46:20-57
+uses-sdk
+INJECTED from /Users/ivan/WebstormProjects/ProvidusMobile/node_modules/react-native-thales-paysdk-wrapper/android/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/ivan/WebstormProjects/ProvidusMobile/node_modules/react-native-thales-paysdk-wrapper/android/src/main/AndroidManifest.xml
+INJECTED from /Users/ivan/WebstormProjects/ProvidusMobile/node_modules/react-native-thales-paysdk-wrapper/android/src/main/AndroidManifest.xml
+INJECTED from /Users/ivan/WebstormProjects/ProvidusMobile/node_modules/react-native-thales-paysdk-wrapper/android/src/main/AndroidManifest.xml
+INJECTED from /Users/ivan/WebstormProjects/ProvidusMobile/node_modules/react-native-thales-paysdk-wrapper/android/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/ivan/WebstormProjects/ProvidusMobile/node_modules/react-native-thales-paysdk-wrapper/android/src/main/AndroidManifest.xml
+		ADDED from /Users/ivan/WebstormProjects/ProvidusMobile/node_modules/react-native-thales-paysdk-wrapper/android/src/main/AndroidManifest.xml
+		INJECTED from /Users/ivan/WebstormProjects/ProvidusMobile/node_modules/react-native-thales-paysdk-wrapper/android/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/ivan/WebstormProjects/ProvidusMobile/node_modules/react-native-thales-paysdk-wrapper/android/src/main/AndroidManifest.xml
+		ADDED from /Users/ivan/WebstormProjects/ProvidusMobile/node_modules/react-native-thales-paysdk-wrapper/android/src/main/AndroidManifest.xml
+		INJECTED from /Users/ivan/WebstormProjects/ProvidusMobile/node_modules/react-native-thales-paysdk-wrapper/android/src/main/AndroidManifest.xml

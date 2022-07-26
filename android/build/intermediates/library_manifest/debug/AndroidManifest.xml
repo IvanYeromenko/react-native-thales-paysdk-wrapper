@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.reactnativethalespaysdkwrapper"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="23"
+        android:targetSdkVersion="30" />
+
+    <uses-feature android:name="android.hardware.nfc.hce" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- When targetSDKVersion >= 28, it is mandatory to set this permission to start foreground service -->
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" /> <!-- In  case the Appliaction uses the biometric as CDCVM -->
+    <uses-permission android:name="android.permission.USE_BIOMETRIC" /> <!-- Even if deprecated from Android 10, this is needed for Android 9 and below -->
+    <uses-permission android:name="android.permission.USE_FINGERPRINT" /> <!-- Declare the use of HCE service -->
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.NFC" />
+
+    <!-- Permissions to be set -->
+    <application android:allowBackup="false" >
+        <activity android:name="com.reactnativethalespaysdkwrapper.DeviceAuthActivity" />
+        <!-- Declare the service used by the SDK for provisioning -->
+        <service
+            android:name="com.gemalto.mfs.mwsdk.provisioning.push.CPSCommService"
+            android:enabled="true" /> <!-- Declare the service used to sync the configuration of MG and CPS clients -->
+        <service
+            android:name="com.gemalto.mfs.mwsdk.mobilegateway.MGConfigurationChangeService"
+            android:enabled="true" /> <!-- OPTIONAL Declare the service used by SDK to load SDK services. To keep the App ready for payment at any time -->
+        <!-- <service android:name="com.gemalto.mfs.services.SDKLoaderService" /> -->
+        <service
+            android:name="com.gemalto.mfs.mwsdk.dcm.broadcast.DCMBroadcastService"
+            android:exported="false" />
+        <service
+            android:name="com.reactnativethalespaysdkwrapper.payment.contactless.pfp.PFPHCEService"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:permission="android.permission.BIND_NFC_SERVICE" >
+            <intent-filter>
+                <action android:name="android.nfc.cardemulation.action.HOST_APDU_SERVICE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.nfc.cardemulation.host_apdu_service"
+                android:resource="@xml/apduservice" />
+        </service>
+        <service android:name="com.reactnativethalespaysdkwrapper.HeartbeatEventService" >
+        </service>
+    </application>
+
+</manifest>

@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="dee5a068-c446-45c7-9ae0-68f3f20e7cbe" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/TSHPaySDK-debug-6.3.0.rc04-default.aar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/assets/gemcbp.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/assets/rages.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/reactnativethalespaysdkwrapper/app/AppBuildConfigurations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/reactnativethalespaysdkwrapper/app/AppConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/reactnativethalespaysdkwrapper/model/DigitalCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/reactnativethalespaysdkwrapper/model/DigitalCardDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/reactnativethalespaysdkwrapper/payment/contactless/ContactlessPayListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/reactnativethalespaysdkwrapper/payment/contactless/pfp/PFPHCEService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/reactnativethalespaysdkwrapper/payment/contactless/pfp/PFPHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/reactnativethalespaysdkwrapper/util/AppExecutors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/reactnativethalespaysdkwrapper/util/AppLogger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/reactnativethalespaysdkwrapper/util/Constants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/reactnativethalespaysdkwrapper/util/EnvConfigs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/reactnativethalespaysdkwrapper/util/JsonToMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/reactnativethalespaysdkwrapper/util/MainThreadExecutor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/reactnativethalespaysdkwrapper/util/NotificationUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/reactnativethalespaysdkwrapper/util/PaymentExecutor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/reactnativethalespaysdkwrapper/util/SDKHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/reactnativethalespaysdkwrapper/util/SharedPreferenceUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/reactnativethalespaysdkwrapper/util/TokenReplenishmentRequestor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/reactnativethalespaysdkwrapper/util/Util.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/hce_banner.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/xml/apduservice.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example/android/TSHPaySDK-Debug/TSHPaySDK-debug-6.3.0.rc04-default.aar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example/android/TSHPaySDK-Debug/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example/android/app/google-services.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example/android/app/src/main/java/com/example/reactnativethalespaysdkwrapper/service/MyFirebaseMessagingService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example/android/keystore/keystore.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example/android/keystore/public.cert" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example/android/keystore/release.keystore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example/ios/Podfile.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example/yarn.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/reactnativethalespaysdkwrapper/ThalesPaysdkWrapperModule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/reactnativethalespaysdkwrapper/ThalesPaysdkWrapperModule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../example/android/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../example/android/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../example/android/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../example/android/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../example/android/app/src/main/java/com/example/reactnativethalespaysdkwrapper/MainApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../example/android/app/src/main/java/com/example/reactnativethalespaysdkwrapper/MainApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../example/android/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../example/android/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../example/android/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../example/android/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../example/android/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../example/android/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../example/ios/ThalesPaysdkWrapperExample.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/../example/ios/ThalesPaysdkWrapperExample.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../example/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../example/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../src/index.tsx" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1upzy6KZkn28iBKGed1Jd5oxwfW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="android.project.structure.last.selected" value="SDK Location" />
+    <property name="android.project.structure.proportion" value="0.15" />
+    <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/assets" />
+    <property name="project.structure.last.edited" value="Dependencies" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
+  </component>
+  <component name="PsdUISettings">
+    <option name="LAST_EDITED_BUILD_TYPE" value="release" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.reactnativethalespaysdkwrapper" />
+      <recent name="com.reactnativethalespaysdkwrapper.model" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/assets" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/reactnativethalespaysdkwrapper" />
+      <recent name="$PROJECT_DIR$/src/main" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+    </configuration>
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dee5a068-c446-45c7-9ae0-68f3f20e7cbe" name="Default Changelist" comment="" />
+      <created>1625377569697</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1625377569697</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1207" y="299" width="1260" height="528" key="#PSD" timestamp="1625385331625">
+      <screen x="0" y="25" width="2560" height="1007" />
+    </state>
+    <state x="1207" y="299" width="1260" height="528" key="#PSD/0.25.2560.1007@0.25.2560.1007" timestamp="1625385331625" />
+    <state x="545" y="377" key="com.intellij.ide.util.TipDialog" timestamp="1625755581430">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="545" y="377" key="com.intellij.ide.util.TipDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1625755581430" />
+    <state x="545" y="377" key="com.intellij.ide.util.TipDialog/0.25.1792.1047@0.25.1792.1047" timestamp="1625499741077" />
+    <state width="649" height="135" key="javadoc.popup.new" timestamp="1626319112637">
+      <screen x="0" y="25" width="2560" height="1007" />
+    </state>
+    <state width="455" height="141" key="javadoc.popup.new/0.25.1792.1047@0.25.1792.1047" timestamp="1625419314526" />
+    <state width="649" height="135" key="javadoc.popup.new/0.25.2560.1007@0.25.2560.1007" timestamp="1626319112637" />
+  </component>
+</project>

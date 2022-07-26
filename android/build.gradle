@@ -1,0 +1,73 @@
+buildscript {
+    if (project == rootProject) {
+        repositories {
+            google()
+            jcenter()
+        }
+
+        dependencies {
+            classpath 'com.android.tools.build:gradle:4.0.1'
+        }
+    }
+}
+
+apply plugin: 'com.android.library'
+
+def safeExtGet(prop, fallback) {
+    rootProject.ext.has(prop) ? rootProject.ext.get(prop) : fallback
+}
+
+android {
+    compileSdkVersion safeExtGet('ThalesPaysdkWrapper_compileSdkVersion', 30)
+    buildToolsVersion safeExtGet('ThalesPaysdkWrapper_buildToolsVersion', '30.0.3')
+    defaultConfig {
+        minSdkVersion safeExtGet('ThalesPaysdkWrapper_minSdkVersion', 23)
+        targetSdkVersion safeExtGet('ThalesPaysdkWrapper_targetSdkVersion', 30)
+        versionCode 1
+        versionName "1.0"
+       multiDexEnabled true
+
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+        }
+    }
+    lintOptions {
+        disable 'GradleCompatible'
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+repositories {
+    mavenLocal()
+    maven {
+        // All of React Native (JS, Obj-C sources, Android binaries) is installed from npm
+        url("$rootDir/../node_modules/react-native/android")
+    }
+    google()
+    jcenter()
+
+}
+
+dependencies {
+    //noinspection GradleDynamicVersion
+      implementation "com.facebook.react:react-native:+"
+      implementation 'androidx.constraintlayout:constraintlayout:2.0.4'// From node_modules
+      debugImplementation files ('libs/TSHPaySDK-dev-6.5.1.rc01.aar')
+    releaseImplementation files ('libs/TSHPaySDK-dev-6.5.1.rc01.aar')
+    implementation 'net.java.dev.jna:jna:5.8.0@aar'
+      implementation 'androidx.multidex:multidex:2.0.1'
+      implementation 'com.google.code.gson:gson:2.8.7'
+      implementation "com.payneteasy:ber-tlv:1.0-9"
+
+  //fcm/
+  implementation "com.google.android.gms:play-services-base:17.4.0"
+  implementation "com.google.firebase:firebase-messaging:20.2.4"
+  implementation 'androidx.appcompat:appcompat:1.4.0-alpha03'
+}

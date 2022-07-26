@@ -1,0 +1,99 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:tools="http://schemas.android.com/tools"
+4    package="com.reactnativethalespaysdkwrapper" >
+5
+6    <uses-sdk
+7        android:minSdkVersion="23"
+7-->/Users/ivan/WebstormProjects/ProvidusMobile/node_modules/react-native-thales-paysdk-wrapper/android/src/main/AndroidManifest.xml
+8        android:targetSdkVersion="30" />
+8-->/Users/ivan/WebstormProjects/ProvidusMobile/node_modules/react-native-thales-paysdk-wrapper/android/src/main/AndroidManifest.xml
+9
+10    <uses-feature android:name="android.hardware.nfc.hce" />
+10-->/Users/ivan/WebstormProjects/ProvidusMobile/node_modules/react-native-thales-paysdk-wrapper/android/src/main/AndroidManifest.xml:38:3-59
+10-->/Users/ivan/WebstormProjects/ProvidusMobile/node_modules/react-native-thales-paysdk-wrapper/android/src/main/AndroidManifest.xml:38:17-56
+11
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/Users/ivan/WebstormProjects/ProvidusMobile/node_modules/react-native-thales-paysdk-wrapper/android/src/main/AndroidManifest.xml:39:3-65
+12-->/Users/ivan/WebstormProjects/ProvidusMobile/node_modules/react-native-thales-paysdk-wrapper/android/src/main/AndroidManifest.xml:39:20-62
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- When targetSDKVersion >= 28, it is mandatory to set this permission to start foreground service -->
+13-->/Users/ivan/WebstormProjects/ProvidusMobile/node_modules/react-native-thales-paysdk-wrapper/android/src/main/AndroidManifest.xml:40:3-77
+13-->/Users/ivan/WebstormProjects/ProvidusMobile/node_modules/react-native-thales-paysdk-wrapper/android/src/main/AndroidManifest.xml:40:20-74
+14    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" /> <!-- In  case the Appliaction uses the biometric as CDCVM -->
+14-->/Users/ivan/WebstormProjects/ProvidusMobile/node_modules/react-native-thales-paysdk-wrapper/android/src/main/AndroidManifest.xml:41:3-75
+14-->/Users/ivan/WebstormProjects/ProvidusMobile/node_modules/react-native-thales-paysdk-wrapper/android/src/main/AndroidManifest.xml:41:20-72
+15    <uses-permission android:name="android.permission.USE_BIOMETRIC" /> <!-- Even if deprecated from Android 10, this is needed for Android 9 and below -->
+15-->/Users/ivan/WebstormProjects/ProvidusMobile/node_modules/react-native-thales-paysdk-wrapper/android/src/main/AndroidManifest.xml:42:3-70
+15-->/Users/ivan/WebstormProjects/ProvidusMobile/node_modules/react-native-thales-paysdk-wrapper/android/src/main/AndroidManifest.xml:42:20-67
+16    <uses-permission android:name="android.permission.USE_FINGERPRINT" /> <!-- Declare the use of HCE service -->
+16-->/Users/ivan/WebstormProjects/ProvidusMobile/node_modules/react-native-thales-paysdk-wrapper/android/src/main/AndroidManifest.xml:43:3-72
+16-->/Users/ivan/WebstormProjects/ProvidusMobile/node_modules/react-native-thales-paysdk-wrapper/android/src/main/AndroidManifest.xml:43:20-69
+17    <uses-permission android:name="android.permission.GET_TASKS" />
+17-->/Users/ivan/WebstormProjects/ProvidusMobile/node_modules/react-native-thales-paysdk-wrapper/android/src/main/AndroidManifest.xml:44:3-66
+17-->/Users/ivan/WebstormProjects/ProvidusMobile/node_modules/react-native-thales-paysdk-wrapper/android/src/main/AndroidManifest.xml:44:20-63
+18    <uses-permission android:name="android.permission.NFC" />
+18-->/Users/ivan/WebstormProjects/ProvidusMobile/node_modules/react-native-thales-paysdk-wrapper/android/src/main/AndroidManifest.xml:46:3-60
+18-->/Users/ivan/WebstormProjects/ProvidusMobile/node_modules/react-native-thales-paysdk-wrapper/android/src/main/AndroidManifest.xml:46:20-57
+19
+20    <!-- Permissions to be set -->
+21    <application android:allowBackup="false" >
+21-->/Users/ivan/WebstormProjects/ProvidusMobile/node_modules/react-native-thales-paysdk-wrapper/android/src/main/AndroidManifest.xml:6:3-37:17
+21-->/Users/ivan/WebstormProjects/ProvidusMobile/node_modules/react-native-thales-paysdk-wrapper/android/src/main/AndroidManifest.xml:6:16-43
+22        <activity android:name="com.reactnativethalespaysdkwrapper.DeviceAuthActivity" />
+22-->/Users/ivan/WebstormProjects/ProvidusMobile/node_modules/react-native-thales-paysdk-wrapper/android/src/main/AndroidManifest.xml:7:5-61
+22-->/Users/ivan/WebstormProjects/ProvidusMobile/node_modules/react-native-thales-paysdk-wrapper/android/src/main/AndroidManifest.xml:7:15-49
+23        <!-- Declare the service used by the SDK for provisioning -->
+24        <service
+24-->/Users/ivan/WebstormProjects/ProvidusMobile/node_modules/react-native-thales-paysdk-wrapper/android/src/main/AndroidManifest.xml:9:5-11:32
+25            android:name="com.gemalto.mfs.mwsdk.provisioning.push.CPSCommService"
+25-->/Users/ivan/WebstormProjects/ProvidusMobile/node_modules/react-native-thales-paysdk-wrapper/android/src/main/AndroidManifest.xml:10:7-76
+26            android:enabled="true" /> <!-- Declare the service used to sync the configuration of MG and CPS clients -->
+26-->/Users/ivan/WebstormProjects/ProvidusMobile/node_modules/react-native-thales-paysdk-wrapper/android/src/main/AndroidManifest.xml:11:7-29
+27        <service
+27-->/Users/ivan/WebstormProjects/ProvidusMobile/node_modules/react-native-thales-paysdk-wrapper/android/src/main/AndroidManifest.xml:12:5-14:32
+28            android:name="com.gemalto.mfs.mwsdk.mobilegateway.MGConfigurationChangeService"
+28-->/Users/ivan/WebstormProjects/ProvidusMobile/node_modules/react-native-thales-paysdk-wrapper/android/src/main/AndroidManifest.xml:13:7-86
+29            android:enabled="true" /> <!-- OPTIONAL Declare the service used by SDK to load SDK services. To keep the App ready for payment at any time -->
+29-->/Users/ivan/WebstormProjects/ProvidusMobile/node_modules/react-native-thales-paysdk-wrapper/android/src/main/AndroidManifest.xml:14:7-29
+30        <!-- <service android:name="com.gemalto.mfs.services.SDKLoaderService" /> -->
+31        <service
+31-->/Users/ivan/WebstormProjects/ProvidusMobile/node_modules/react-native-thales-paysdk-wrapper/android/src/main/AndroidManifest.xml:16:5-18:34
+32            android:name="com.gemalto.mfs.mwsdk.dcm.broadcast.DCMBroadcastService"
+32-->/Users/ivan/WebstormProjects/ProvidusMobile/node_modules/react-native-thales-paysdk-wrapper/android/src/main/AndroidManifest.xml:17:7-77
+33            android:exported="false" />
+33-->/Users/ivan/WebstormProjects/ProvidusMobile/node_modules/react-native-thales-paysdk-wrapper/android/src/main/AndroidManifest.xml:18:7-31
+34        <service
+34-->/Users/ivan/WebstormProjects/ProvidusMobile/node_modules/react-native-thales-paysdk-wrapper/android/src/main/AndroidManifest.xml:19:5-33:15
+35            android:name="com.reactnativethalespaysdkwrapper.payment.contactless.pfp.PFPHCEService"
+35-->/Users/ivan/WebstormProjects/ProvidusMobile/node_modules/react-native-thales-paysdk-wrapper/android/src/main/AndroidManifest.xml:20:7-60
+36            android:exported="true"
+36-->/Users/ivan/WebstormProjects/ProvidusMobile/node_modules/react-native-thales-paysdk-wrapper/android/src/main/AndroidManifest.xml:21:7-30
+37            android:label="@string/app_name"
+37-->/Users/ivan/WebstormProjects/ProvidusMobile/node_modules/react-native-thales-paysdk-wrapper/android/src/main/AndroidManifest.xml:22:7-39
+38            android:permission="android.permission.BIND_NFC_SERVICE" >
+38-->/Users/ivan/WebstormProjects/ProvidusMobile/node_modules/react-native-thales-paysdk-wrapper/android/src/main/AndroidManifest.xml:23:7-63
+39            <intent-filter>
+39-->/Users/ivan/WebstormProjects/ProvidusMobile/node_modules/react-native-thales-paysdk-wrapper/android/src/main/AndroidManifest.xml:24:7-28:23
+40                <action android:name="android.nfc.cardemulation.action.HOST_APDU_SERVICE" />
+40-->/Users/ivan/WebstormProjects/ProvidusMobile/node_modules/react-native-thales-paysdk-wrapper/android/src/main/AndroidManifest.xml:25:9-85
+40-->/Users/ivan/WebstormProjects/ProvidusMobile/node_modules/react-native-thales-paysdk-wrapper/android/src/main/AndroidManifest.xml:25:17-82
+41
+42                <category android:name="android.intent.category.DEFAULT" />
+42-->/Users/ivan/WebstormProjects/ProvidusMobile/node_modules/react-native-thales-paysdk-wrapper/android/src/main/AndroidManifest.xml:27:9-68
+42-->/Users/ivan/WebstormProjects/ProvidusMobile/node_modules/react-native-thales-paysdk-wrapper/android/src/main/AndroidManifest.xml:27:19-65
+43            </intent-filter>
+44
+45            <meta-data
+45-->/Users/ivan/WebstormProjects/ProvidusMobile/node_modules/react-native-thales-paysdk-wrapper/android/src/main/AndroidManifest.xml:30:7-32:47
+46                android:name="android.nfc.cardemulation.host_apdu_service"
+46-->/Users/ivan/WebstormProjects/ProvidusMobile/node_modules/react-native-thales-paysdk-wrapper/android/src/main/AndroidManifest.xml:31:9-67
+47                android:resource="@xml/apduservice" />
+47-->/Users/ivan/WebstormProjects/ProvidusMobile/node_modules/react-native-thales-paysdk-wrapper/android/src/main/AndroidManifest.xml:32:9-44
+48        </service>
+49        <service android:name="com.reactnativethalespaysdkwrapper.HeartbeatEventService" >
+49-->/Users/ivan/WebstormProjects/ProvidusMobile/node_modules/react-native-thales-paysdk-wrapper/android/src/main/AndroidManifest.xml:34:5-36:15
+49-->/Users/ivan/WebstormProjects/ProvidusMobile/node_modules/react-native-thales-paysdk-wrapper/android/src/main/AndroidManifest.xml:35:7-44
+50        </service>
+51    </application>
+52
+53</manifest>

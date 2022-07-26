@@ -1,0 +1,22 @@
+<resources>
+
+
+    <string name="mg_notification_message">This notification is posted to run internal operation of mg sdk</string>
+    <string name="mg_notification_channel_id">MG_SDK_NOTIFICATION</string>
+
+    <string name="cps_notification_message">This notification is posted to run internal operation of cps sdk</string>
+    <string name="cps_notification_channel_id">CPS_SDK_NOTIFICATION</string>
+
+    <string name="firebase_token_update">Firebase token updated</string>
+
+    <string name="payment_timeout">Payment timeout. Please try again.</string>
+
+    <!-- Replenishment -->
+    <string name="replenish_request">Replenishment of Credentials requested for token</string>
+
+    <!--       HCE Service        -->
+    <string name="hce_service_description">Providus Bank</string>
+    <string name="aid_description">>Providus Bank Contactless Pay</string>
+
+
+</resources>

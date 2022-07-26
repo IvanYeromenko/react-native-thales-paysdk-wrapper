@@ -1,0 +1,16 @@
+R_DEF: Internal format may change without notice
+local
+drawable app_icon
+drawable hce_banner
+id textView
+layout activity_device_auth
+string aid_description
+string cps_notification_channel_id
+string cps_notification_message
+string firebase_token_update
+string hce_service_description
+string mg_notification_channel_id
+string mg_notification_message
+string payment_timeout
+string replenish_request
+xml apduservice
